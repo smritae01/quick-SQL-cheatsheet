@@ -98,10 +98,10 @@ A quick reminder of all relevant SQL queries and examples on how to use them.
 <a name="report"></a>
 # 3. Reporting Queries
 
-### **COUNT**: returns the # of occurrences
+### **COUNT**: returns the number of occurrences
 * `SELECT COUNT (DISTINCT` column_name`)`;
 
-### **MIN() and MAX()**: returns the smallest/largest value of the selected column
+### **MIN() and MAX()**: returns the smallest or largest value of the selected column
 * `SELECT MIN (`column_names`) FROM` table_name `WHERE` condition;
 * `SELECT MAX (`column_names`) FROM` table_name `WHERE` condition;
 
@@ -127,7 +127,7 @@ A quick reminder of all relevant SQL queries and examples on how to use them.
 ### **FULL (OUTER) JOIN**: returns all records when there is a match in either left or right table
 * `SELECT` column_names `FROM` table1 ``FULL OUTER JOIN`` table2 `ON` table1.column_name=table2.column_name;
 
-### **Self JOIN**: a regular join, but the table is joined with itself
+### **SELF JOIN**: same as a regular join, but the table is joined with itself
 * `SELECT` column_names `FROM` table1 T1, table1 T2 `WHERE` condition;
 
 
